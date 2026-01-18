@@ -1,0 +1,12 @@
+git config --global user.name 'Gitjeoma'
+git config --global user.email 'daralove13@hotmail.com'
+
+git config --list
+
+echo "# Real_Time_Stock_Market_Analysis" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/Gitjeoma/Real_Time_Stock_Market_Analysis.git
+git push -u origin main
